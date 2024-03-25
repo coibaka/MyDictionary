@@ -1,0 +1,29 @@
+# Tạo từ điển
+## Câu hỏi đặt ra
+1. Từ điển là gì?
+> Wiki:
+- `Từ điển` là __danh sách__ các __từ__, __ngữ__ được _sắp xếp_ thành các `từ vị chuẩn` (`lemma`). Một `từ điển` thông thường __cung cấp__ các _giải nghĩa_ (của)các __từ ngữ__ đó _hoặc_ các __từ ngữ tương đương__ trong _một hay nhiều_ __thứ tiếng khác__. Ngoài ra còn có thể có thêm __thông tin__ về __cách phát âm__, các __chú ý ngữ pháp__, các __dạng biến thể__ của __từ__, __lịch sử__ hay __từ nguyên__, __cách sử dụng__ hay các câu __ví dụ__, __trích dẫn__
+> Dựa trên định nghĩa của Wiki, tôi sẽ tự tóm tắt theo cách của cá nhân.
+
+`Từ điển` là: 
+- `danh sách` các `từ`,`ngữ` được `sắp xếp` thành các `từ vị chuẩn`(`lemma`[^1]) ~> vì `Từ điển` được định nghĩa là `word`(từ) __được__ `sort`(sắp xếp) thành các `lemma`. dựa vào điều này và kiến thức cá nhân tôi sẽ đưa nó thành những `code` giúp tóm tắt kiến thức với `code` ngắn gọn. tôi sử dụng `(` `)` để biểu diễn sự phụ thuộc. với `list` `(` `word` `)` biểu thị `word` nằm trong `list`, `sort(list)` nghĩa là `list` nằm trong việc `sort`. Ví dụ: 
+- `sort`(`list`(`word`)) 
+Vậy tóm tắt từ `wiki` có thể chuyển đổi thành:
+
+`Từ điển` là `sort(list(word))` = `lemma`
+
+>Một `từ điển` thông thường __cung cấp__ các _giải nghĩa_ (của)các __từ ngữ__ đó _hoặc_ các __từ ngữ tương đương__ trong _một hay nhiều_ __thứ tiếng khác__. Ngoài ra còn có thể có thêm __thông tin__ về __cách phát âm__, các __chú ý ngữ pháp__, các __dạng biến thể__ của __từ__, __lịch sử__ hay __từ nguyên__, __cách sử dụng__ hay các câu __ví dụ__, __trích dẫn__
+
+- `Từ điển`.`define(word)` = `word.define(another_language)`.
+- `Từ điển`.`audio(word)` = `word.audio(another_language)`
+- `Từ điển`.`grammar(word)` = `word.grammar(another_language)`
+- 
+
+3. Mục đích sử dụng?
+4. Làm sao mở rộng các chức năng?
+## Các chức năng của từ điển
+
+
+
+[^1]: `lemma` theo toán học có nghĩa là: `Mệnh đề`[^2] có tính chất bổ trợ cho một hay nhiều định lí.
+[^2]: `Mệnh đề` là: (Triết học) _Lời phát biểu_ một _điều phán đoán_ về _giá trị_ hay _sự tồn tại_ của _sự vật_.
