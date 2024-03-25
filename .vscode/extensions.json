@@ -1,0 +1,11 @@
+{
+    "recommendations": [
+        "ms-dotnettools.vscode-dotnet-sdk",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.vscode-dotnet-pack",
+        "akamud.vscode-theme-onedark",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "franneck94.c-cpp-runner"
+    ]
+}
